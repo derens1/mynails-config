@@ -1,0 +1,27 @@
+{
+  "fondatriciFinoA": "2027-06-30",
+  "offerte": [
+    {
+      "id": "michellenails-deborah",
+      "brand": "Michelle Nails",
+      "titolo": "Sconto con il codice di Deborah",
+      "testo": "Prodotti professionali per la ricostruzione unghie. Scegli quello che ti serve e usa il codice al carrello.",
+      "codice": "Sconto_deborahgmg",
+      "link": "https://michellenails.com/it/",
+      "colore": "#B65A72",
+      "pubblico": "tecniche",
+      "logo": "https://michellenails.com/img/logo-1727274890.jpg"
+    },
+    {
+      "id": "nailfor-deborah",
+      "brand": "Nailfor",
+      "titolo": "Sconto con il codice di Deborah",
+      "testo": "Gel, lime, lampade e tutto per la ricostruzione unghie. Scegli quello che ti serve e usa il codice al carrello.",
+      "codice": "Nail_debygmg",
+      "link": "https://www.nailfor.com/it/",
+      "colore": "#7A5A9E",
+      "pubblico": "tecniche",
+      "logo": "https://www.nailfor.com/img/nailforcom-vendita-logo-15983508311.jpg"
+    }
+  ]
+}
