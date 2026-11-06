@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Nails – Privacy e supporto</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap">
+<style>
+/* Layout: una colonna di lettura, fascia rosa in alto con Jelly come nell'app */
+:root {
+  --bg: #FBF1F4;
+  --band: #B65A72;
+  --on-band: #FFFFFF;
+  --ink: #3E1F2A;
+  --muted: #74505D;
+  --accent: #9C445B;
+  --panel: #FFFFFF;
+  --line: #EED3DB;
+  --display: "Fredoka", "Trebuchet MS", sans-serif;
+  --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #1E1418; --band: #5E2A39; --on-band: #FFF3F6; --ink: #F6E6EB; --muted: #C9A9B4; --accent: #F0A6BA; --panel: #2A1C22; --line: #42303A; color-scheme: dark }
+}
+:root[data-theme="dark"] { --bg: #1E1418; --band: #5E2A39; --on-band: #FFF3F6; --ink: #F6E6EB; --muted: #C9A9B4; --accent: #F0A6BA; --panel: #2A1C22; --line: #42303A; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6 }
+.band { background: var(--band); color: var(--on-band); padding-block: 40px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); border-radius: 0 0 40px 40px }
+.band .in, main { max-width: 680px; margin: 0 auto }
+.band .in { display: flex; align-items: center; gap: 20px; flex-wrap: wrap }
+.band svg { width: 88px; height: auto; flex: none }
+h1 { font-family: var(--display); font-weight: 600; font-size: 40px; line-height: 1.05; margin: 0; text-wrap: balance }
+.band p { margin: 6px 0 0; opacity: .92 }
+main { display: flex; flex-direction: column; gap: 28px; padding-block: 36px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+h2 { font-family: var(--display); font-weight: 600; font-size: 24px; color: var(--accent); margin: 0 0 6px; text-wrap: balance }
+section p, section ul { margin: 0 0 10px; max-width: 65ch }
+section ul { padding-left: 20px }
+.box { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 20px }
+.contact { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+.contact code { font-family: var(--body); font-weight: 700; font-size: 17px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 6px 10px; user-select: all }
+button { font: inherit; font-weight: 600; color: var(--on-band); background: var(--accent); border: 0; border-radius: 12px; padding: 8px 14px; cursor: pointer }
+:root[data-theme="dark"] button { color: #1E1418 }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) button { color: #1E1418 } }
+button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px }
+.small { font-size: 14px; color: var(--muted) }
+</style>
+
+</head>
+<body>
+<header class="band">
+  <div class="in">
+    <svg viewBox="0 0 200 212" role="img" aria-label="Jelly, la mascotte di My Nails">
+      <rect x="76" y="8" width="48" height="66" rx="14" fill="#C9687F"/><rect x="85" y="15" width="8" height="46" rx="4" fill="#FFFFFF" opacity=".35"/>
+      <rect x="68" y="66" width="64" height="16" rx="6" fill="#A84F66"/>
+      <rect x="36" y="78" width="128" height="122" rx="40" fill="#F6C3CF"/>
+      <path d="M36 146h128v14a40 40 0 0 1-40 40H76a40 40 0 0 1-40-40z" fill="#EFA3B6"/>
+      <ellipse cx="82" cy="120" rx="7.5" ry="9.5" fill="#4A2330"/><circle cx="84.8" cy="116.2" r="2.8" fill="#FFFFFF"/>
+      <path d="M111 122q8.5-9 17 0" fill="none" stroke="#4A2330" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="69" cy="137" rx="9" ry="5.5" fill="#EE8FA6" opacity=".8"/><ellipse cx="133" cy="137" rx="9" ry="5.5" fill="#EE8FA6" opacity=".8"/>
+      <path d="M92 135q8 10 17 0" fill="#B0263B" stroke="#4A2330" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div>
+      <h1>My Nails · Privacy e supporto</h1>
+      <p>Informativa sulla privacy dell’app My Nails · aggiornata il 27 ottobre 2026</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="box">
+    <h2>In breve</h2>
+    <p>My Nails non raccoglie dati personali. Clienti, appuntamenti, foto e conti restano salvati solo sul tuo telefono. Non c’è un account, non c’è un server che riceve i tuoi dati e non c’è pubblicità profilata. L’app invia soltanto statistiche anonime d’uso, che puoi spegnere quando vuoi.</p>
+  </section>
+
+  <section>
+    <h2>Statistiche anonime</h2>
+    <p>Per capire quali funzioni sono utili e migliorare l’app, My Nails invia conteggi anonimi su come viene usata: quali sezioni apri, quando salvi un appuntamento o un trattamento, quali offerte apri, il tema scelto e il numero di clienti in fasce (per esempio “11-30”).</p>
+    <ul>
+      <li>Non inviamo mai nomi, telefoni, note, allergie, foto o importi.</li>
+      <li>Non usiamo identificativi del dispositivo né cookie, e i dati non vengono incrociati con altre informazioni o venduti.</li>
+      <li>Il servizio usato è Aptabase, con server nell’Unione Europea.</li>
+      <li>Puoi spegnere le statistiche in qualsiasi momento da Impostazioni → “Aiutami a migliorare l’app”.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Chi è il titolare</h2>
+    <p>Il titolare è Simone Giagnorio, che sviluppa e pubblica l’app. Per qualsiasi domanda sulla privacy scrivi a simoderens@gmail.com.</p>
+  </section>
+
+  <section>
+    <h2>Quali dati usa l’app</h2>
+    <ul>
+      <li><b>Dati che inserisci tu</b>: nomi e contatti delle clienti, appuntamenti, trattamenti, allergie, note, spese e incassi. Sono salvati in un archivio locale sul tuo dispositivo e non vengono mai inviati a noi o a terzi.</li>
+      <li><b>Foto</b>: quando aggiungi una foto, l’app la riduce e la salva sul tuo dispositivo. Su iPhone può copiarla anche nell’album “My Nails” della tua galleria.</li>
+      <li><b>Modalità cliente</b>: appuntamenti, diario delle unghie, ispirazioni e contatti della tua onicotecnica restano anch’essi solo sul tuo telefono.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Permessi del telefono</h2>
+    <p>L’app chiede l’accesso alla fotocamera e alle foto solo quando scegli di aggiungere un’immagine. Puoi negarlo o revocarlo in qualsiasi momento dalle impostazioni del telefono: il resto dell’app continua a funzionare.</p>
+  </section>
+
+  <section>
+    <h2>Offerte dei brand</h2>
+    <p>La sezione Offerte mostra proposte di aziende del settore. L’app scarica da GitHub un piccolo file con l’elenco delle offerte e alcune impostazioni (per esempio la data del programma Fondatrici) e non invia alcun dato tuo o delle tue clienti; come ogni sito, GitHub riceve l’indirizzo IP del telefono per consegnare il file. Se tocchi un’offerta con un codice sconto, il codice viene copiato negli appunti del telefono e si apre il sito del brand, che ha una propria informativa sulla privacy.</p>
+  </section>
+
+  <section>
+    <h2>Backup</h2>
+    <p>Da Impostazioni puoi creare un file di backup con i tuoi dati e salvarlo dove preferisci (per esempio Google Drive, email o WhatsApp). Il file lo crei e lo gestisci tu: noi non lo riceviamo.</p>
+  </section>
+
+  <section>
+    <h2>I dati delle tue clienti</h2>
+    <p>Se usi My Nails per il tuo lavoro, sei tu a decidere quali dati delle tue clienti registrare e sei responsabile del loro trattamento. Raccogli solo ciò che serve e, se fotografi le loro mani, chiedi il loro consenso.</p>
+  </section>
+
+  <section>
+    <h2>Cancellare i dati</h2>
+    <p>Puoi eliminare ogni scheda dall’app. Disinstallando My Nails cancelli tutti i dati salvati dall’app sul telefono. Le foto copiate nella galleria restano finché non le elimini tu.</p>
+  </section>
+
+  <section>
+    <h2>A chi è rivolta</h2>
+    <p>My Nails è pensata per persone maggiorenni e non raccoglie consapevolmente dati di minori.</p>
+  </section>
+
+  <section>
+    <h2>Modifiche</h2>
+    <p>Se questa informativa cambia, la data in alto viene aggiornata e le novità importanti vengono segnalate nell’app.</p>
+  </section>
+
+  <section class="box" id="supporto">
+    <h2>Supporto</h2>
+    <p>Hai un problema con l’app, un’idea o una domanda? Scrivici: rispondiamo di solito entro due giorni lavorativi.</p>
+    <div class="contact">
+      <code id="email">simoderens@gmail.com</code>
+      <button type="button" id="copia">Copia indirizzo</button>
+      <span class="small" id="esito" aria-live="polite"></span>
+    </div>
+    <p class="small" style="margin-top: 12px">Domande frequenti: i dati non si sincronizzano tra due telefoni, perché restano sul dispositivo. Se cambi telefono, prima di disinstallare chiedici come spostarli.</p>
+  </section>
+</main>
+
+<script>
+document.getElementById('copia').addEventListener('click', function () {
+  var t = document.getElementById('email').textContent, out = document.getElementById('esito');
+  function sel() { var r = document.createRange(); r.selectNodeContents(document.getElementById('email')); var s = getSelection(); s.removeAllRanges(); s.addRange(r); out.textContent = 'Indirizzo selezionato: copialo con il menu del telefono.'; }
+  try {
+    navigator.clipboard.writeText(t).then(function () { out.textContent = 'Indirizzo copiato.'; }, sel);
+  } catch (e) { sel(); }
+});
+</script>
+
+</body>
+</html>
